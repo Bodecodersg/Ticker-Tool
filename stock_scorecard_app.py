@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 
 # Constants and API key (replace with your actual FMP API key)
-FMP_API_KEY = "your_fmp_api_key"
+FMP_API_KEY = "EZ9ZWlvQTeKLLnqTv4mBoZoidw1APRNi"
 BASE_URL = "https://financialmodelingprep.com/api/v3"
 
 def get_profile(ticker):
