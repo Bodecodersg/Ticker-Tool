@@ -2,7 +2,7 @@
 import streamlit as st
 import requests
 
-FMP_API_KEY = "your_fmp_api_key"  # Replace with your actual FMP API key
+FMP_API_KEY = "EZ9ZWlvQTeKLLnqTv4mBoZoidw1APRNi"
 
 def fetch_fmp_data(endpoint, ticker):
     url = f"https://financialmodelingprep.com/api/v3/{endpoint}/{ticker}?limit=1&apikey={FMP_API_KEY}"
